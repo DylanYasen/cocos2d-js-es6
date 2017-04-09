@@ -1,10 +1,10 @@
 const res = {
-    bg : 'res/bg.png'
+  bg: 'res/bg.png',
 };
 
 const resources = [];
-for (var i in res) {
-    resources[i] = res[i];
+for (const i in res) {
+  resources[i] = res[i];
 }
 
 export default resources;

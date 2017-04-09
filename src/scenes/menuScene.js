@@ -6,10 +6,10 @@ export default class MenuScene extends Scene {
     super();
   }
   onEnter() {
-		super.onEnter();
+    super.onEnter();
 
-		var layer = new MenuLayer();
-		layer.init();
-		this.addChild(layer);
-	}
+    const layer = new MenuLayer();
+    layer.init();
+    this.addChild(layer);
+  }
 }
